@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site com menu</h1>
+        <span id="burguer"class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">link1</a></li>
+                <li><a href="#">link2</a></li>
+                <li><a href="#">link3</a></li>
+                <li><a href="#">link4</a></li>
+                <li><a href="#">link5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Materia hiper importante(confia)</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur expedita nobis, deleniti dolor odit officia ad debitis accusantium nostrum voluptatum quae aut quam aspernatur voluptate vitae quia perferendis? Doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et a neque vero maiores? Possimus vero, reprehenderit consequatur repudiandae, quis odio corporis nihil, exercitationem iste reiciendis quia minus molestias doloribus laboriosam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aperiam mollitia, quasi eum omnis repellat alias, molestiae necessitatibus quia ducimus tempora. Incidunt tempora rem modi ratione fuga ut, illum asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi quis dolor. Quaerat, molestiae maiores ipsum voluptate reiciendis perspiciatis officia veniam, labore earum ex facere reprehenderit vero. Similique, saepe exercitationem.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+            }
+        
+    </script>
+</body>
+</html>
